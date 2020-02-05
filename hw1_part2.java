@@ -2,7 +2,7 @@ package HW1;
 
 
 import java.awt.*;
-
+// written by Andrea Ovalle
 public class hw1_part2 {
 
     public static void stats(int[] numbers) {

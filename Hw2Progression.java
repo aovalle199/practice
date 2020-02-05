@@ -1,5 +1,6 @@
 package HW2;
 
+// written by Andrea Ovalle
 
 public class Hw2Progression extends Progression {
 

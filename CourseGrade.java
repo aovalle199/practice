@@ -1,6 +1,6 @@
 package HW2;
 
-
+// written by Andrea Ovalle
 
 public class CourseGrade {
     // Instance variables

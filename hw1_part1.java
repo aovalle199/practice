@@ -1,6 +1,6 @@
 package HW1;
 
-
+// written by Andrea Ovalle
 public class hw1_part1 {
     // it accepts four arguments
     public static void grade(int homework,

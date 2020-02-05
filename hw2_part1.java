@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+// written by Andrea Ovalle
 public class hw2_part1 {
     public static void main(String[] args) throws IOException {
 
