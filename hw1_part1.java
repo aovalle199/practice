@@ -1,3 +1,36 @@
+// The first method receives the grades of all grading components of a student and calculates the
+// weighted average, determines the letter grade of the student, and prints on the screen the weighted
+// average and the letter grade. The grading components and their weights are:
+// Homework: 30%
+// Project: 10%
+// Midterm: 25%
+// Final: 35%
+// The letter grade is determined as follows:
+// 90 ≤ average < 94: A- 94 ≤ average: A,
+// 80 ≤ average < 83: B- 83 ≤ average < 87: B 87 ≤ average < 90: B+
+// 70 ≤ average < 73: C- 73 ≤ average < 77: C 77 ≤ average < 80: C+
+// 60 ≤ average < 70: D
+// The signature of the method is:
+// public static void grade(int homework, int project, int midterm, int finalExam)
+// The second method is the main method, which is used to test the grade method. The following
+// shows two examples:
+// If you run your program with:
+// public static void main(String[] args) {
+// grade(100, 90, 85, 95);
+// }
+// Your output should be: Average is 94.0, Grade is A
+// If you run your program with:
+// public static void main(String[] args) {   
+// grade(100, 100, 90, 75);
+// }
+// Your output should be: Average is 88.75, Grade is B+
+
+
+
+
+
+
+
 package HW1;
 
 // written by Andrea Ovalle
