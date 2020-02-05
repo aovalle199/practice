@@ -1,3 +1,37 @@
+// You must define a class named CourseGrade in a separate CourseGrade.java file. The class
+// definition must include at least the following:
+//  A constructor (you may define multiple constructors if you want)
+//  The following instance variables
+// private String name;
+// private int homework;
+// private int project;
+// private int midterm;
+// private int finalExam;
+// private double average;
+// private String grade;
+//  All necessary getter and setter methods.
+// Then, your program must (within the main method of Hw2_part1.java):
+//  Read the input file, one line at a time
+//  Parse a line (or separate tokens)
+//  Calculate the weighted average and determine the letter grade of the student
+//  Create an object of CourseGrade class
+//  Add the object to an ArrayList
+//  Repeat the above until all lines in the input file are read
+//  Print all students’ grades in the following format:
+// Number of students is: 5
+// John: Average = 94.85, Grade = A
+// Susan: Average = 83.45, Grade = B
+// Molly: Average = 92.85, Grade = A‐ 
+// Lindsey: Average = 83.25, Grade = B
+// Jake: Average = 79.0, Grade = C+
+// Technically, you don’t need to store students’ information in an ArrayList. When you read each
+// line from the input file, you can determine the grade and print the necessary information without
+// storing that information. However, since one of the goals of this assignment is a practice of using
+// an ArrayList, you must store students’ information in an ArrayList. 
+
+
+
+
 package HW2;
 
 import java.io.IOException;
