@@ -1,3 +1,38 @@
+// The first method receives an array of integers, which are sorted in non-decreasing order, and
+// calculates the mean, median, and the mode of these numbers and prints them on the screen. We
+// assume that the integers in the array are between 0 and 9, inclusively. The median of a set of
+// numbers is determined in the following way:
+//  If the number of integers is odd, the “middle” number is the median.
+//  If the number of integers is even, the average of two middle numbers is the median.
+//  Example:
+// The array has [2, 5, 5, 5, 7, 8, 8]. Median = 5
+// The array has [2, 2, 4, 4, 4, 7, 8, 8, 8, 8]. Median = (4 + 7) / 2 = 5.5
+// The mode of a set of numbers is a number that occurs most frequently. The following shows
+// examples:
+//  The array has [2, 5, 5, 5, 7, 8, 8]. Mode = 5
+//  The array has [2, 2, 4, 4, 4, 7, 8, 8, 8, 8]. Mode = 8
+// The signature of this method should be:
+// public static void stats(int[ ] numbers)
+// The second method is a main method. If you run this program with the following main method:
+// public static void main(String[] args) {
+//     int[] a = {2, 5, 5, 5, 7, 8, 8};
+//     int[] b = {2, 2, 4, 4, 4, 7, 8, 8, 8, 8};
+//     stats(a);
+//     stats(b);
+// }
+// Your output should be:
+// Mean = 5.714
+// Median = 5.0
+// Mode = 5
+// Mean = 5.5
+// Median = 5.5
+// Mode = 8
+// We assume that there is only one mode in a given array of integers. 
+
+
+
+
+
 package HW1;
 
 
