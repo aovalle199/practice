@@ -1,5 +1,6 @@
 package HW8;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class PQSimulationExample {
@@ -79,6 +80,7 @@ public class PQSimulationExample {
         // insert students to priority queue (from studentList)
         for (int i=0; i<studentList.size(); i++){
             pq.insert(studentList.get(i).getId(), studentList.get(i));
+
         }
 
         // print students from priority queue
